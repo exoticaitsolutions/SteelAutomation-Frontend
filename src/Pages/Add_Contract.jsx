@@ -3,12 +3,12 @@ function AddContract() {
     return (
       
           <div class="container">
-            <nav>
+          <nav>
               <ul>
-                <li><a href="#" class="logo">
+                <li><Link href="#" class="logo">
                   <img src="six.png" alt="admin"/>
                   <span class="nav-item">Admin</span>
-                </a></li>
+                </Link></li>
                 <li><Link to="/">
                   <i class="fas fa-home"></i>
                   <span class="nav-item">Home</span>
@@ -26,18 +26,18 @@ function AddContract() {
                   <span class="nav-item">Add Contract</span>
                 </Link></li>
                 
-                <li><a href="">
+                <li><Link to="">
                   <i class="fas fa-cog"></i>
                   <span class="nav-item">Settings</span>
-                </a></li>
-                <li><a href="">
+                </Link></li>
+                <li><Link to="/signup">
                   <i class="fas fa-question-circle"></i>
-                  <span class="nav-item">Help</span>
-                </a></li>
-                <li><a href="" class="logout">
+                  <span class="nav-item">SignUp</span>
+                </Link></li>
+                <li><Link to="/" class="logout">
                   <i class="fas fa-sign-out-alt"></i>
                   <span class="nav-item">Log out</span>
-                </a></li>
+                </Link></li>
               </ul>
             </nav>
         
